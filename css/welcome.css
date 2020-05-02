@@ -1,0 +1,145 @@
+
+
+* {
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face { font-family: roboto-regular; 
+   src: url('../webfonts/Cairo-Bold.ttf'); } 
+
+
+body {
+   direction:rtl;
+   font-family: 'Cairo'  !important;
+   background: #232526;  
+   background: -webkit-linear-gradient(to left, #414345, #232526); 
+   background: linear-gradient(to left, #414345, #232526);
+   height: 100%;
+   width: 100%;
+
+
+}
+
+.welcome {
+   width: 100%;
+   height: 100%;
+  background:#fff
+}
+.welcome-box {
+   background-image: url('../imgs/bg.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   
+   height: 100vh;
+   position: relative;
+  
+ }
+ .app-title {
+   width: 80%;
+   margin: 0 auto;
+   color: #666262;
+   text-align: center;
+   padding-top: 15px;
+}
+.app-title h1 {
+   font-size: 20px;
+   background: #747574;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+.links {
+   position: absolute;
+   bottom: 6%;
+   left: 25%;
+   width: 50%;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+}
+ .links .trianing-link ,.links .orders-link  {
+    
+    width: 100%;
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-items: center;
+    
+     opacity: .8;
+ }
+ .links a {
+    color: #fff;
+    width: 75%;
+    height: 45px;
+    padding: 10px;
+    background: rgba(144, 121, 97, 0.44); 
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+   
+ }
+
+
+  .help-buttons {
+     cursor: pointer;
+     background: #fff;
+     width: 40px;
+     height: 35px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20%;
+     
+  }
+
+
+
+
+
+ 
+/*=========================Style for media queries  ============================*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 375.98px) { 
+ 
+   
+
+   
+  }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 500.98px) { 
+ body {
+    padding: 0;
+ }
+ 
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+   
+   body {
+      padding: 0;
+   }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+   body {
+      padding: 0;
+   }
+}
+
+/* Large devices (desktops, greate than 992px)*/
+@media (min-width: 991px ) {
+  
+   body {
+      padding: 0;
+   }
+ }

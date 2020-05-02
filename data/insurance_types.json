@@ -1,0 +1,72 @@
+{
+"types":
+[
+    {   "id" :1,
+        "title":"health-insurance",
+        "insurances":
+        [
+        {
+            "id":1,
+            "icon":"./imgs/family.png",
+            "iconName":"family"
+        },
+        {
+            "id":2,
+            "icon":"./imgs/indviual-health.png",
+            "iconName":"individual"
+        },
+        {
+            "id":3,
+            "icon":"./imgs/family.png",
+            "iconName":"other"
+        }
+        ]
+    },
+    {   "id" :2,
+        "title":"motor-insurance",
+        "insurances":
+        [
+        {
+            "id":1,
+            "icon":"./imgs/motor-byik.png",
+            "iconName":"two wheeler"
+        },
+        {
+            "id":2,
+            "icon":"./imgs/car.png",
+            "iconName":"car"
+        },
+        {
+            "id":3,
+            "icon":"./imgs/commerical.png",
+            "iconName":"commerical"
+        }
+        ]
+    },
+    {   "id" :3,
+        "title":"travel-insurance",
+        "insurances":
+        [
+        {
+            "id":1,
+            "icon":"./imgs/plane.png",
+            "iconName":"individual"
+        },
+        {
+            "id":2,
+            "icon":"./imgs/car.png",
+            "iconName":"car"
+        },
+        {
+            "id":3,
+            "icon":"./imgs/commerical.png",
+            "iconName":"commerical"
+        }
+        ]
+    }
+    
+    
+    
+
+]
+}

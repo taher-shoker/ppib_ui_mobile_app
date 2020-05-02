@@ -1,0 +1,329 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+
+body {
+    font-family: 'Spartan', sans-serif;
+
+    height: 100%;
+    width: 100%;
+   
+    }
+    
+.btn-success {
+    background: #006241;
+    border: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+
+
+p {
+    margin-bottom: 0;
+    padding: 10px;
+   
+}
+
+
+h4 {
+    color:#FFF;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+
+/*===================== General Style for all pages  ==============================*/
+
+section.app {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.screen{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  
+}
+.screen.active{
+    position: relative;
+   
+    -webkit-transform: translateX(320px) translateY(200px) ;
+    -moz-transform: translateX(320px) translateY(200px) ;
+    -ms-transform: translateX(320px) translateY(200px) ;
+    -o-transform: translateX(320px) translateY(200px) ;
+    transform:  translateX(320px) translateY(200px) ;
+    transition: all 1s ease-in-out;
+}
+.content{
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    flex-grow: 1;
+}
+
+.content .search-box{
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color:#fff;
+    position: relative;
+    padding: 4px 0;
+}
+.content .search-box::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    padding: 0 5px;
+    color: #bfbdbd;
+}
+.content .search-box input{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+.content .search-box input::placeholder{
+    color:#bfbdbd ;
+    text-transform: capitalize;
+}
+input[type=text]:focus{
+    outline: none;
+    border: none;
+
+}
+/*======================= Style for footer==========================*/
+footer {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #ffffff;
+}
+footer .footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    margin: 0;
+    list-style: none;
+    /* margin-top: -2px; */
+    border-top: 1px solid #2f80ed;
+}
+footer .footer-bar .icon {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+   
+}
+footer .footer-bar .icon a{
+    text-transform: capitalize;
+    color: #a0a2a0;
+    font-size: 12px;
+}
+footer .footer-bar .icon i{
+
+    color: #a0a2a0;
+    font-size: 20px;
+}
+footer .footer-bar .icon.active i{
+    color: #47aedd;
+}
+footer .footer-bar .icon.active a{
+    color: #47aedd;
+}
+/*==================== style for navbar ==============*/ 
+.navbar  {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row-reverse;
+ align-items: center;
+ background: #ffff;
+}
+.navbar-brand {
+    margin: 0;
+}
+.navbar-brand span{
+    position: relative;
+    /* width: 18px; */
+    /* height: 22px; */
+    background-color: #2F80ED;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px 7px;
+    left: -36px;
+    top: -10px;
+}
+.navbar .navbar-brand  i{
+  color: #006241;
+  font-size: 25px;
+  /* padding-right: 15px; */
+}
+.navbar .logo-app {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    text-align: center;
+    margin-right: 40px;
+}
+.navbar .logo-app img{
+    width: 100%;
+    height: 100%;
+}
+.navbar .logo-app span{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+nav .navbar-toggler:visited,nav .navbar-toggler:focus {
+  outline: none;
+  border: none;
+}
+nav .navbar-toggler i {
+    color:#006241;
+}
+ .navbar-nav{
+    margin-top: 180px;
+    margin-left: -100px;
+}
+ .navbar-dark .navbar-nav .active  {
+    background: #006241;
+    padding: 0px 5px;
+    border-radius: 20px 5px 5px 20px;
+    font-weight: bold;
+   
+}
+
+.navbar-nav .nav-link{
+    color: #FFF;
+    position: relative;
+    border: none;
+    outline:none;
+  
+    padding: 6px 1px;
+    font-size: 16px;
+}
+ .navbar-nav .nav-link:hover{
+    color: #ececec
+}
+ .navbar-nav i {
+    color: #FFF;
+    font-size: 25px;
+}
+ .nav-item {
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar-collapse {
+    display: block;
+    background: #acce6d;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+}
+/* .navbar-collapse.show{
+  
+}  */
+
+
+
+
+/*==================== style for img in help buttons ==============*/ 
+
+
+
+
+
+
+
+
+/*=========================Style for media queries  ============================*/
+@media (max-width: 320px) { 
+  
+}
+
+/* small devices (portrait phones, less than 375px)*/
+@media (min-width: 375px) { 
+   
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 400.98px) { 
+
+    .nav-link {
+        margin-top: 0px;
+    }
+
+ 
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+    .nav-link {
+        margin-top: 0px;
+    }
+  
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .nav-link {
+        margin-top: 0px;
+    }
+  
+    .title::before{
+        left: -20%;
+    }
+  .title::after{
+         right: -20%;
+     }
+ }
+}

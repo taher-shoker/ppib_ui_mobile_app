@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.header_search
+	{
+		display: none;
+	}
+	.menu_search
+	{
+		display: block;
+	}
+
+	.footer_bar_content
+	{
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.copyright
+	{
+		margin-top: 10px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	.header_content
+	{
+		height: 59px;
+	}
+	.home
+	{
+		padding-top: 59px;
+	}
+	.logo a > div > div:first-child
+	{
+		width: 20px;
+		margin-top: -3px;
+	}
+	.logo a > div > div:last-child
+	{
+		font-size: 16px;
+		padding-left: 10px;
+	}
+	.hamburger
+	{
+		margin-top: 2px;
+	}
+	.hamburger i
+	{
+		font-size: 20px;
+	}
+	
+
+	.footer_logo
+	{
+		margin-left: 0;
+	}
+	.footer_title
+	{
+		font-size: 30px;
+	}
+	.footer_list li a
+	{
+		font-size: 16px;
+	}
+	.footer_list li a > div::after
+	{
+		font-size: 10px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}

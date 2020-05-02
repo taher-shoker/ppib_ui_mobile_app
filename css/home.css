@@ -1,0 +1,55 @@
+.insurance-types{
+    background-color: #edefef;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+    min-height: 682px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+ .insurance-types .insurance{
+    width: 95%;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 19px 22px #c3c3c3;
+}
+.insurance-types .insurance h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 0;
+}
+.insurance-types .insurance .view-link button{
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: #cccccc;
+}
+.insurance-types .insurance .types{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.insurance-types .insurance .types li {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} 
+.insurance-types .insurance .types li .icon img {
+    width: 50px;
+    height: 50px;
+}
+.insurance-types .insurance .types li .icon-name{
+    text-transform: capitalize;
+    color: #47aedd;
+    font-size: 13px;
+    font-weight: b;
+}
